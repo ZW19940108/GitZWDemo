@@ -16,6 +16,7 @@
 		95FA3F921C80223A00247E0E /* GitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FA3F911C80223A00247E0E /* GitDemoTests.m */; };
 		95FA3F9D1C80223A00247E0E /* GitDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FA3F9C1C80223A00247E0E /* GitDemoUITests.m */; };
 		95FA3FAD1C8025C300247E0E /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FA3FAC1C8025C300247E0E /* Person.m */; };
+		95FA3FB11C8026F600247E0E /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FA3FB01C8026F600247E0E /* Student.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		95FA3F9E1C80223A00247E0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		95FA3FAB1C8025C300247E0E /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		95FA3FAC1C8025C300247E0E /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		95FA3FAF1C8026F600247E0E /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		95FA3FB01C8026F600247E0E /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,7 @@
 			children = (
 				95FA3FAA1C8025A900247E0E /* A */,
 				95FA3F7A1C80223A00247E0E /* AppDelegate.h */,
+				95FA3FAE1C8026E100247E0E /* B */,
 				95FA3F7B1C80223A00247E0E /* AppDelegate.m */,
 				95FA3F7D1C80223A00247E0E /* ViewController.h */,
 				95FA3F7E1C80223A00247E0E /* ViewController.m */,
@@ -151,6 +155,15 @@
 				95FA3FAC1C8025C300247E0E /* Person.m */,
 			);
 			name = A;
+			sourceTree = "<group>";
+		};
+		95FA3FAE1C8026E100247E0E /* B */ = {
+			isa = PBXGroup;
+			children = (
+				95FA3FAF1C8026F600247E0E /* Student.h */,
+				95FA3FB01C8026F600247E0E /* Student.m */,
+			);
+			name = B;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,6 +298,7 @@
 			files = (
 				95FA3F7F1C80223A00247E0E /* ViewController.m in Sources */,
 				95FA3F7C1C80223A00247E0E /* AppDelegate.m in Sources */,
+				95FA3FB11C8026F600247E0E /* Student.m in Sources */,
 				95FA3FAD1C8025C300247E0E /* Person.m in Sources */,
 				95FA3F791C80223A00247E0E /* main.m in Sources */,
 			);
