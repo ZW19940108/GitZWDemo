@@ -16,6 +16,7 @@
 		95FA3F921C80223A00247E0E /* GitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FA3F911C80223A00247E0E /* GitDemoTests.m */; };
 		95FA3F9D1C80223A00247E0E /* GitDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FA3F9C1C80223A00247E0E /* GitDemoUITests.m */; };
 		95FA3FAD1C8025C300247E0E /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FA3FAC1C8025C300247E0E /* Person.m */; };
+		95FA3FB51C8027EC00247E0E /* Teacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FA3FB41C8027EC00247E0E /* Teacher.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		95FA3F9E1C80223A00247E0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		95FA3FAB1C8025C300247E0E /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		95FA3FAC1C8025C300247E0E /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		95FA3FB31C8027EC00247E0E /* Teacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Teacher.h; sourceTree = "<group>"; };
+		95FA3FB41C8027EC00247E0E /* Teacher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Teacher.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,8 +152,18 @@
 			children = (
 				95FA3FAB1C8025C300247E0E /* Person.h */,
 				95FA3FAC1C8025C300247E0E /* Person.m */,
+				95FA3FB21C8027DD00247E0E /* C */,
 			);
 			name = A;
+			sourceTree = "<group>";
+		};
+		95FA3FB21C8027DD00247E0E /* C */ = {
+			isa = PBXGroup;
+			children = (
+				95FA3FB31C8027EC00247E0E /* Teacher.h */,
+				95FA3FB41C8027EC00247E0E /* Teacher.m */,
+			);
+			name = C;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,6 +299,7 @@
 				95FA3F7F1C80223A00247E0E /* ViewController.m in Sources */,
 				95FA3F7C1C80223A00247E0E /* AppDelegate.m in Sources */,
 				95FA3FAD1C8025C300247E0E /* Person.m in Sources */,
+				95FA3FB51C8027EC00247E0E /* Teacher.m in Sources */,
 				95FA3F791C80223A00247E0E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
