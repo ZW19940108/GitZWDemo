@@ -16,8 +16,8 @@
 		95FA3F921C80223A00247E0E /* GitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FA3F911C80223A00247E0E /* GitDemoTests.m */; };
 		95FA3F9D1C80223A00247E0E /* GitDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FA3F9C1C80223A00247E0E /* GitDemoUITests.m */; };
 		95FA3FAD1C8025C300247E0E /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FA3FAC1C8025C300247E0E /* Person.m */; };
-		95FA3FB51C8027EC00247E0E /* Teacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FA3FB41C8027EC00247E0E /* Teacher.m */; };
 		95FA3FB11C8026F600247E0E /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FA3FB01C8026F600247E0E /* Student.m */; };
+		95FA3FB51C8027EC00247E0E /* Teacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FA3FB41C8027EC00247E0E /* Teacher.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,10 +56,10 @@
 		95FA3F9E1C80223A00247E0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		95FA3FAB1C8025C300247E0E /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		95FA3FAC1C8025C300247E0E /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
-		95FA3FB31C8027EC00247E0E /* Teacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Teacher.h; sourceTree = "<group>"; };
-		95FA3FB41C8027EC00247E0E /* Teacher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Teacher.m; sourceTree = "<group>"; };
 		95FA3FAF1C8026F600247E0E /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
 		95FA3FB01C8026F600247E0E /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		95FA3FB31C8027EC00247E0E /* Teacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Teacher.h; sourceTree = "<group>"; };
+		95FA3FB41C8027EC00247E0E /* Teacher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Teacher.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,8 +111,8 @@
 			isa = PBXGroup;
 			children = (
 				95FA3FAA1C8025A900247E0E /* A */,
-				95FA3F7A1C80223A00247E0E /* AppDelegate.h */,
 				95FA3FAE1C8026E100247E0E /* B */,
+				95FA3F7A1C80223A00247E0E /* AppDelegate.h */,
 				95FA3F7B1C80223A00247E0E /* AppDelegate.m */,
 				95FA3F7D1C80223A00247E0E /* ViewController.h */,
 				95FA3F7E1C80223A00247E0E /* ViewController.m */,
@@ -161,13 +161,6 @@
 			name = A;
 			sourceTree = "<group>";
 		};
-		95FA3FB21C8027DD00247E0E /* C */ = {
-			isa = PBXGroup;
-			children = (
-				95FA3FB31C8027EC00247E0E /* Teacher.h */,
-				95FA3FB41C8027EC00247E0E /* Teacher.m */,
-			);
-			name = C;
 		95FA3FAE1C8026E100247E0E /* B */ = {
 			isa = PBXGroup;
 			children = (
@@ -175,6 +168,15 @@
 				95FA3FB01C8026F600247E0E /* Student.m */,
 			);
 			name = B;
+			sourceTree = "<group>";
+		};
+		95FA3FB21C8027DD00247E0E /* C */ = {
+			isa = PBXGroup;
+			children = (
+				95FA3FB31C8027EC00247E0E /* Teacher.h */,
+				95FA3FB41C8027EC00247E0E /* Teacher.m */,
+			);
+			name = C;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
